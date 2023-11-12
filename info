@@ -1,0 +1,158 @@
+{
+  "uuid": "121905b1b94311a365f22d34966d0cf0",
+  "path": "Offline/breathing%20LED",
+  "name": "breathing LED",
+  "content": "",
+  "created_at": "2023-11-13 02:12:27",
+  "updated_at": "2023-11-13 02:45:08",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e2c2db2bf09e862f599da77ebc633537",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "a943367c79762a498ce0b66bc24e76ee",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "405604a6b30a4f90b8eaa0fd336d2626": 1,
+        "a7a0e276dadd4f8097422d2afc2e1b9c": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 6,
+        "5cbe824183374fac8e4c1ae848199ce3": 1,
+        "fc217faf64a940a397750f89d4f53ff3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "47u",
+          1,
+          "CASE-A_3216",
+          "C1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_Tan_SMD_A_US",
+            "Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "BC547C",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713614",
+            "Manufacturer": "LGE(鲁光)",
+            "Manufacturer Part": "BC547C",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C713614&%26type=1&ref=editor",
+            "spiceSymbolName": "BC547C",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "fc217faf64a940a397750f89d4f53ff3"
+          }
+        ],
+        [
+          "47k",
+          3,
+          "R0603",
+          "R1,R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "100k",
+          2,
+          "R0603",
+          "R4,R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LM324N",
+          1,
+          "DIP-14_L19.3-W7.0-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM324N",
+            "Supplier Part": "C114380",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C114380&%26type=1&ref=editor",
+            "spiceSymbolName": "LM324N",
+            "puuid": "924183f2e7374cd5b06345f9d051be76",
+            "uuid": "405604a6b30a4f90b8eaa0fd336d2626"
+          }
+        ]
+      ],
+      "updateTime": 1699823708,
+      "createTime": 1699821748,
+      "histories": [],
+      "created_at": "2023-11-13 02:12:28",
+      "updated_at": "2023-11-13 02:45:08"
+    }
+  ],
+  "sort": [],
+  "title": "breathing LED",
+  "foldername": "breathing LED",
+  "schfilename": "breathing LED.json",
+  "schfilemtime": 1699823708783
+}
